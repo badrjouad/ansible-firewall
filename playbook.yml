@@ -1,0 +1,6 @@
+---
+- name: Installs APF Firewall
+  hosts: localhost
+  become: true
+  vars:
+  tasks:
